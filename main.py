@@ -6,12 +6,12 @@ blackHand: list = []  # the starting hand of the black team
 boardPieces: list = []  # the list of pieces that are currently on the board
 moves: list = []  # list of all moves made so far
 
-def getInput() -> str:  # receives and returns string input
+def getinput() -> str:  # gets user input as a string and returns it
 
-def printScreen():  # prints out the board and other necessities
+def printscreen():  # prints the board and any other relevant information
 
-def getPiece(type: Piece, p: Position) -> Piece:  # searches through the boardPieces list and find the piece specified by the given class type and position on the board
+def getpiece(type: Piece, p: Position) -> Piece:  # searches the boardPieces list to find a piece which matches the type and position given
 
-def main():  # main function which executes functions
+def main():  # main function which uses a loop to execute other functions to actually play the game
 
 main()  # calls the main function to begin and end the program
